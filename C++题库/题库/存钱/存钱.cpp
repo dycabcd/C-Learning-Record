@@ -5,7 +5,7 @@ int main(){
 	int a,b,c;
 	cin>>a>>b>>c;
 	int arr[]={a,a,a,a,a,b,b};
-	int s=0,t=0,d=0;
+	int s=0,t=0,d=0,i=0;
 	while(s<c){
 		s+=arr[i];
 		i++;
