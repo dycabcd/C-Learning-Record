@@ -1,10 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-/*全局变量*/
 
-/*结构体*/
-
-/*函数*/
 int s1(int a[],int v,int n){
 	for(int i=0;i<n;i++){
 		if(a[i]==v) return i+1;
@@ -17,7 +13,6 @@ int s2(int a[],int v,int min,int max){
 	if(a[mid]>v) return s2(a,v,min,mid-1);
 	if(a[mid]<v) return s2(a,v,mid+1,max);
 }
-/*调用函数*/
 void fun_1(){
 	int a[]={1,2,3,4,5,6,7};
 	cout<<s1(a,5,7); 
